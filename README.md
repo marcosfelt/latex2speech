@@ -4,7 +4,7 @@
 <a href="https://colab.research.google.com/github/marcosfelt/latex2speech/blob/main/tts_latex.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </p>
 
-This repo contains a Jupyter notebook converts Latex into speech. It's useful for having your papers read back to you during editing/proofreading.
+This repo contains a Jupyter notebook that converts Latex into speech. It's useful for having your papers read back to you during editing/proofreading.
 
 ![Screenshot of Google Colab](colab_screenshot.png)
 
