@@ -4,12 +4,20 @@
 <a href="https://colab.research.google.com/github/marcosfelt/latex2speech/blob/main/tts_latex.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </p>
 
-This repo contains a Jupyter notebook that converts Latex into speech. It's useful for having your papers read back to you during editing/proofreading.
+Reading your papers aloud is a great way to catch errors or improve phrasing. However, most of us never read aloud because it's awkard and boring.  
 
-![Screenshot of Google Colab](colab_screenshot.png)
+Latex2Speech uses AI to read your Latex papers outloud, so you don't have to. Just click "Open in Colab" to get started without any local installation.
 
-How to use:
+<p>
+<a href="https://colab.research.google.com/github/marcosfelt/latex2speech/blob/main/tts_latex.ipynb"><img src="colab_screenshot.png" alt="Open In Colab"/></a>
+</p>
 
-1. Execute the cells under "Setup" to install all the necessary packages
-2. Paste your latex code into the "texts" list and execute the cells.
-3. Execte the remaining cells and you'll get audio players at the end for each paragraph.
+<!-- ![Screenshot of Latex2Speech on Google Colab](colab_screenshot.png) -->
+
+## FAQ
+
+FAQ:
+
+- **Does this remove citation and reference commands?** Yes, automatically done!
+- **How long does it take to generate speech?** The total TTS pipeline is ~4x realtime, so 1 minute of speech will take ~15 seconds. Note, that the first run will take longer, since the model needs to be downloaded.
+- **What model does this use?** It uses the [Tacotron-DDC](https://coqui.ai/blog/tts/solving-attention-problems-of-tts-models-with-double-decoder-consistency) model from [Coqui-AI](https://github.com/coqui-ai/TTS).
