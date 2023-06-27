@@ -4,7 +4,7 @@
 <a href="https://colab.research.google.com/github/marcosfelt/latex2speech/blob/main/tts_latex.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </p>
 
-Reading your papers aloud is a great way to catch errors or improve phrasing. However, most of us never read aloud because it's awkward and boring.  
+Reading your own writing is the best way to catch errors. However, most of us never do it.
 
 Latex2Speech uses AI to read your Latex papers outloud, so you don't have to. Just click "Open in Colab" to get started without any local installation.
 
